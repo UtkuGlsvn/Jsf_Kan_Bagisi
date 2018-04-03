@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <head>
+        <title>Giriş Ekranı</title>
+    </head>
+    <body>
+     <h:form>
+   
+            <h:panelGrid columns="2">
+                <h:outputText value="Kullanıcı Adı:"/>
+                <h:inputText  required="true" size="15" requiredMessage="Kullanıcı adı boş geçilemez"/>
+                 <h:outputText value="Kullanıcı Şifre:"/>
+                 <h:inputSecret size="15" required="true" requiredMessage="Şifre boş geçilemez"/>
+                 </h:panelGrid>
+         <h:panelGrid columns="2">
+             <h:commandButton value="Giriş yap" action="#{managedbean.giris_git()}"></h:commandButton>
+                  <h:message for = "giris" style = "color:red" />
+           
+         </h:panelGrid>     
+         </h:form>
+        <h:form>
+         <h:commandButton value="Kayıt ol" action="#{managedbean.bagis_git()}"></h:commandButton>
+        </h:form>
+        <h:link value="şifremi unuttum" outcome="sifremi_unuttum"></h:link>
+   <h:messages style = "color:red;margin:8px;" />   
+    </body>
+</html>
+    
