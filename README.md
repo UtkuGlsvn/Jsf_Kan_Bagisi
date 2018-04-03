@@ -17,5 +17,5 @@ Proje localde çalışmaktadır.Localde çalıştırmak için ilk önce bilgisay
 # Projeyi IDE üzerinden açmak
 Projeyi indirip netbeans'e import ederek açabilirsiniz.
 # Proje resimleri
-[Resimler]()
+[Resimler](https://github.com/UtkuGlsvn/Jsf_Kan_Bagisi/tree/master/ProjeResimler)
 
