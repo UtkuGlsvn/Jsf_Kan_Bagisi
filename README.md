@@ -18,4 +18,7 @@ Proje localde çalışmaktadır.Localde çalıştırmak için ilk önce bilgisay
 Projeyi indirip netbeans'e import ederek açabilirsiniz.
 # Proje resimleri
 [Resimler](https://github.com/UtkuGlsvn/Jsf_Kan_Bagisi/tree/master/ProjeResimler)
+Ana Sayfa:
+![alt text](https://github.com/UtkuGlsvn/Jsf_Kan_Bagisi/blob/master/ProjeResimler/anasayfa.png "Anasayfa")
+
 
