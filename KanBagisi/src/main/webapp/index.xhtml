@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Kan Bağışı</title>
+          <style type="text/css">
+    iframe{
+      width:850px;
+      height:250px;
+    }
+  </style>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h3 style="align-content: center">Kan Bağışı Uygulaması</h3>
+            <p>Kan verin hayat kurtarın:)</p>
+     
+         <h:commandButton value="Bağışçı Ol" action="#{managedbean.bagisciyim_git()}"></h:commandButton>
+         <h:commandButton value="Kan bağışı arama formu" action="#{managedbean.arama_form_git()}"></h:commandButton>
+         
+         </h:form>
+        <iframe src="konum.html"></iframe>
+    </h:body>
+</html>
+
