@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <head>  
+        <title>Kan Bağışı olma</title>
+    </head>
+    <body>
+        <h:form>
+            
+            <h:panelGrid columns="1">
+            <h:outputLabel value="Ad"></h:outputLabel>
+            <h:inputText size="15"  required="true" requiredMessage="Adı boş geçemezsiniz"  ></h:inputText>
+            
+             <h:outputLabel value="Soyad"></h:outputLabel>
+             <h:inputText size="15"  required="true" requiredMessage="Soyadınızı boş geçemezsiniz" ></h:inputText>
+              <h:outputLabel value="Telefon"></h:outputLabel>
+              <h:inputText size="15" required="true" requiredMessage="Telefonu boş geçemezsiniz"></h:inputText>
+                <h:outputLabel value="Adres"></h:outputLabel>
+              <h:inputTextarea  required="true" requiredMessage="Adresinizi boş geçemezsiniz"> </h:inputTextarea>
+              
+               <h:outputLabel value="Kan grubu"></h:outputLabel>
+              
+               <h:selectOneMenu required="true" requiredMessage="Kan gurubunu boş geçemezsiniz"> 
+   <f:selectItem itemValue = "1" itemLabel = "0 Rh+" /> 
+   <f:selectItem itemValue = "2" itemLabel = "0 Rh-" /> 
+   <f:selectItem itemValue = "3" itemLabel = "A Rh+" /> 
+   <f:selectItem itemValue = "4" itemLabel = "A Rh-" /> 
+   <f:selectItem itemValue = "5" itemLabel = "B Rh+" /> 
+   <f:selectItem itemValue = "6" itemLabel = "B Rh-" /> 
+   <f:selectItem itemValue = "7" itemLabel = "AB Rh+" /> 
+   <f:selectItem itemValue = "8" itemLabel = "AB Rh-" /> 
+</h:selectOneMenu>
+               <br></br>
+               <h:outputLabel value="Bulunduğu il" ></h:outputLabel>
+         <h:selectOneMenu required="true" requiredMessage="İlinizi  boş geçemezsiniz" >
+              <f:selectItem itemValue = "1" itemLabel = "Ankara" /> 
+         </h:selectOneMenu>
+               <br></br>
+                      </h:panelGrid>
+           
+               <h:commandButton value="Bagışçı Ol" ></h:commandButton>
+                 <h:messages style = "color:red;margin:8px;" />  
+    
+        </h:form>
+        <h:form>
+            <h:commandButton value="Zaten bağışçıyım" action="#{managedbean.bagisciyim_git}"></h:commandButton>
+        </h:form>
+    </body>
+</html>
