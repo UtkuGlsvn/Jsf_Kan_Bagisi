@@ -12,9 +12,8 @@ Veritabanı:Postgresql-JDA
 KONUM:[googleapi](https://developers.google.com/maps/)
 # VERİTABANI
 Pgadmin veritabanı yöneticisi yardımıyla 2 tane tablo oluşturdum.
-[Resimler](https://github.com/UtkuGlsvn/Jsf_Kan_Bagisi/blob/master/ProjeResimler/Bagisci.png)
-[Resimler](https://github.com/UtkuGlsvn/Jsf_Kan_Bagisi/blob/master/ProjeResimler/kullanici.png)
-
+![alt text](https://github.com/UtkuGlsvn/Jsf_Kan_Bagisi/blob/master/ProjeResimler/Bagisci.png "Bagisci veritabani")
+![alt text](https://github.com/UtkuGlsvn/Jsf_Kan_Bagisi/blob/master/ProjeResimler/kullanici.png "Kullanıcı veritabani")
 
 
 
