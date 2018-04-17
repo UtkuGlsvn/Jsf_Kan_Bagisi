@@ -19,4 +19,8 @@ public class managedbean  {
       {
            return "aranan?faces-redirect=true";
       }
+               public String giris_git()
+      {
+           return "giris?faces-redirect=true";
+      }
 }
