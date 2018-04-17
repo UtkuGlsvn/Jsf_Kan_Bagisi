@@ -12,9 +12,9 @@ Veritabanı:Postgresql-JDA
 KONUM:[googleapi](https://developers.google.com/maps/)
 # VERİTABANI
 Pgadmin veritabanı yöneticisi yardımıyla 2 tane tablo oluşturdum.
-![alt text]https://github.com/UtkuGlsvn/Jsf_Kan_Bagisi/blob/master/ProjeResimler/Bagisci.png "Bagisci Veritabani")
-![alt text]https://github.com/UtkuGlsvn/Jsf_Kan_Bagisi/blob/master/ProjeResimler/kullanici.png "Uye Veritabani")
-Bagisci da bulunan üye_no foreign  key olup uye veritabanında primary key olan Uye_no ile ilişkilidir.
+[Resimler](https://github.com/UtkuGlsvn/Jsf_Kan_Bagisi/blob/master/ProjeResimler/Bagisci.png)
+[Resimler](https://github.com/UtkuGlsvn/Jsf_Kan_Bagisi/blob/master/ProjeResimler/kullanici.png)
+
 
 
 
